@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Dev Technologies Releases Nexus Repository</name>
-	      <url>http://18.234.163.153:9980/devtechnologies/repository/walmart-release//</url>
+	      <url>http://44.206.238.222:9980/devtechnologies/repository/walmart-release//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Dev Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.234.163.153:9980/devtechnologies/repository/walmart-snapshot//</url>
+	      <url>http://44.206.238.222:9980/devtechnologies/repository/walmart-snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
