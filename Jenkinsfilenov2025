@@ -21,7 +21,7 @@ sh "${mavenHome}/bin/mvn clean package"
 }
 
 /*
-
+//comment
 stage('ExecuteSonarQubeReport'){
 //sh "${mavenHome}/bin/mvn sonar:sonar"
 }
