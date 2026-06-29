@@ -1,4 +1,9 @@
 node{
+
+	echo " Jenkins home dir is: ${env.JENKINS_HOME}"
+	echo " Jenkins node name is: ${env.NODE_NAME}"
+	echo " Jenkins job name is: ${env.JOB_NAME}"
+	
     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
     timestamps {
         //some block
